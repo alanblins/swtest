@@ -22,3 +22,8 @@ Y-wing: 74
 Millenial Falcon: 9
 Rebel transport: 11
 ```
+
+# test
+```sh
+npm test
+```

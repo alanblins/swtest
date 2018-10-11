@@ -1,30 +1,30 @@
 [![Build Status](https://travis-ci.org/alanblins/swtest.svg?branch=master)](https://travis-ci.org/alanblins/swtest)
-# swtest
-Test using swapi
+# What does it do?
+This read the data from the api from https://swapi.co. The application takes as input a distance in mega lights (MGLT). It calculates the amount of stops required to make the distance between the planets.
 
-# install
+# Install
 ```sh
 npm i
 ```
 
-# run the project
+# How to run console app
 ```sh
 npm run app $distance
 ```
 
-example
+e.g.:
 
 ```sh
 npm run app 1000000
 ```
-You will get
+output:
 ```sh
 Y-wing: 74
-Millenial Falcon: 9
-Rebel transport: 11
+Millennium Falcon: 9
+Rebel Transport: 11
 ```
 
-# test
+# Test
 ```sh
 npm test
 ```

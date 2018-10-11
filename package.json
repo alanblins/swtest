@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "app": "node index.js",
-    "test": "mocha ./test/**/*.spec.js",
+    "test": "npm run lint && mocha ./test/**/*.spec.js",
     "kneat": "npm run app 1000000",
     "lint": "eslint src/",
     "doc": "jsdoc src/CalcStop.js src/HourConverter.js -d docs/"
